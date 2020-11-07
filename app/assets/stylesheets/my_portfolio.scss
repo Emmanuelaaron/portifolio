@@ -3,10 +3,10 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .nav-left div {
-  width: 29.58px;
   height: 31px;
   color: #f9855b;
   font-weight: bolder;
+  font-size: 40px;
 }
 
 .nav-right {
@@ -17,6 +17,68 @@
 
   .intro {
     color: #f9855b;
+  }
+}
+
+.picture_1 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  p a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.picture_2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%);
+
+  p a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+  }
+}
+
+.picture_3 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%);
+
+  p a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 105.3%;
+    color: #fff;
+  }
+}
+
+.picture_4 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%);
+
+  p a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 105.3%;
+    color: #fff;
+  }
+}
+
+.picture_5 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%);
+
+  p a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 105.3%;
+    color: #fff;
   }
 }
 
@@ -51,5 +113,32 @@ section {
       height: 22.31px;
       color: #f9855b;
     }
+  }
+}
+
+.projects {
+  h4 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 105.3%;
+    color: #000;
+  }
+}
+
+.about_me {
+  h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 105.3%;
+    color: #000;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #727274;
   }
 }
