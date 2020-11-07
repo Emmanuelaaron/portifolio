@@ -70,7 +70,7 @@
         </a>
     </div>
 </section>
-<section class="row pl-5 about_me">
+<section class="row pl-5 about_me justify-content-between">
     <div class="col-5">
         <h1>About Me</h1>
         <p>I'm a self-taught Software engineer with a robust experience in Full-stack web development 
@@ -81,4 +81,29 @@
         from following SOLID principles to utilizing Code quality control tools like TravisCI, 
         CodeClimate, GitHub Actions, Pylint, Stickler, CircleCI etc.</p>
     </div>
+
+    <div class="col-5 technologies">
+        <h4 class="">Languages</h4>
+        <p>Ruby Python Html CSS Javascript</p>
+        <h4 class="">Frameworks</h4>
+        <p>Ruby on rails | Flask | Bootstrap | React | Capybara | Rspec </p>
+    </div>
 </section>
+<footer class="pt-5 d-flex flex-column align-items-center">
+    <h3 class="text-center">Interested in collaborating?</h3>
+    <p> If you have an application you are interested in developing,
+     a feature that you need built or a project that need coding, 
+    I’d love to help you with it.</p>
+     <%= form_for @vistor, url: url_for(controller: 'vistors', action: 'create') do |f| %>
+        <div class="d-flex">
+            <%= text_field_tag :name, params[:name], :placeholder => "Your Name", :class => 'form-control' %>
+            <%= text_field_tag :email, params[:email], :placeholder => "Your Email", :class => 'form-control' %>
+        </div>
+        <div>
+            <%= text_field_tag :message, params[:message], :placeholder => "Your message", :class => 'form-control' %>
+        </div>
+        <div class="col-xs-12 col-md-6 m-b-xs">
+          <button class="btn btn-success btn-block" type="submit">Continue</button>
+        </div>
+    <% end %>
+</footer>

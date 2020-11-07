@@ -142,3 +142,43 @@ section {
     color: #727274;
   }
 }
+
+.technologies {
+  h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 105.3%;
+    color: #000;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #727274;
+  }
+}
+
+footer {
+  background: #f9855b;
+
+  h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 105.3%;
+    color: #fff;
+  }
+
+  p {
+    width: 590px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+  }
+}
