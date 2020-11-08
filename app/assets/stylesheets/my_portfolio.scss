@@ -3,10 +3,9 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .nav-left div {
-  height: 31px;
   color: #f9855b;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .nav-right {
@@ -181,4 +180,25 @@ footer {
     text-align: center;
     color: #fff;
   }
+
+  .button {
+    background-color: #000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 105.3%;
+    text-align: center;
+    color: #fff;
+    border: none;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.message,
+.email,
+.name {
+  border: none;
 }

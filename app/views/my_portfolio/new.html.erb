@@ -1,8 +1,8 @@
-<nav class="row justify-content-between pl-5 pr-5 pt-5">
-    <div class="nav-left col-5">
-        <div>Emmanuel Isabirye</div>
+<nav class="row justify-content-md- pl-5 pr-5 pt-5 align-items-center">
+    <div class="nav-left col-sm">
+        <div>EI</div>
     </div>
-    <div class="nav-right d-flex justify-content-between col-3 g-dark">
+    <div class="nav-right d-flex justify-content-md-between col-sm col- g-dark">
         <div class="intro"> < /intro></div>
         <div>Portfolio</div>
         <div>About</div>
@@ -95,15 +95,25 @@
      a feature that you need built or a project that need coding, 
     I’d love to help you with it.</p>
      <%= form_for @vistor, url: url_for(controller: 'vistors', action: 'create') do |f| %>
-        <div class="d-flex">
-            <%= text_field_tag :name, params[:name], :placeholder => "Your Name", :class => 'form-control' %>
-            <%= text_field_tag :email, params[:email], :placeholder => "Your Email", :class => 'form-control' %>
+        <div class="d-flex w-100">
+            <%= text_field_tag :name, params[:name], :placeholder => "Your Name", :class => 'name w-50' %>
+            <%= text_field_tag :email, params[:email], :placeholder => "Your Email", :class => 'email ml-2 w-50' %>
         </div>
-        <div>
-            <%= text_field_tag :message, params[:message], :placeholder => "Your message", :class => 'form-control' %>
+        <div class=" mt-2" >
+            <%= text_field_tag :message, params[:message], :placeholder => "Your message", :class => 'message w-100 ', :style => "height: 100px;" %>
         </div>
-        <div class="col-xs-12 col-md-6 m-b-xs">
-          <button class="btn btn-success btn-block" type="submit">Continue</button>
+        <div class="col-xs-12 m-b-xs mt-4 mb-4">
+          <button class="p-1 btn-block button" type="submit">Get in touch</button>
         </div>
+        <p class="">
+            emmanuelisabirye9@gmail.com
+            <a href="https://github.com/Emmanuelaaron" target="_blank"><i class="fab fa-github ml-3"></i></a>
+            <a href="https://www.facebook.com/emma.isa.1293/" target="_blank"><i class="fab fa-facebook-f "></i></a>
+            <a href="https://www.linkedin.com/in/fullstackwebdev-emma/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/EmmanuelIsabir1" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://join.skype.com/invite/ioFe8aum3uJW" target="-blank"><i class="fab fa-skype"></i></a>
+        </p>
+
     <% end %>
+   
 </footer>
